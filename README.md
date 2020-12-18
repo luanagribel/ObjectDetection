@@ -29,7 +29,7 @@ $ git clone https://github.com/luanagribel/ObjectDetection.git
 
 ### Unzip files
 - Descompacte as pastas "info.zip" e "negativas.zip"
-OBS: As mesmas foram compactadas devido ao elevado número de imagens para treinamento
+- OBS: As mesmas foram compactadas devido ao elevado número de imagens para treinamento
 
 ### Detect
 - Através do terminal, rode o script de detecção dos morangos
