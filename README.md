@@ -32,7 +32,8 @@ $ git clone https://github.com/luanagribel/ObjectDetection.git
 - OBS: As mesmas foram compactadas devido ao elevado número de imagens para treinamento
 
 ### Detect
-- Através do terminal, rode o script de detecção dos morangos
+- Através do terminal, rode o script para a detecção dos morangos
 ```
 python detecta.py
 ```
+- Abra a imagem "morango.jpg" através de um smartphone e a posicione direcionada para a webcam
