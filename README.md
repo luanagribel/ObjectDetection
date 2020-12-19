@@ -30,6 +30,7 @@ $ git clone https://github.com/luanagribel/ObjectDetection.git
 ### Unzip files
 - Descompacte as pastas "info.zip" e "negativas.zip" localizadas na pasta "Haar Cascade"
 - OBS: As mesmas foram compactadas devido ao elevado número de imagens para treinamento
+- OBS2: Caso queira utilizar imagens diferentes você pode acessar o site http://image-net.org/ e escolher diversos datasets :D
 
 ### Detect
 - Através do terminal, rode o script para a detecção dos morangos
