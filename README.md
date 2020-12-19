@@ -1,6 +1,8 @@
 
 
 <h1 align="center"> 🍓 Object Detection 🍓</h1>
+<h3 align="center"> (em desenvolvimento) </h3>
+
 <p align="center">Treinando e detectando objetos com Haar Cascade (Python + OpenCV)</p>
 
 <p align="left">Neste projeto, está sendo implementado o método Haar Cascade para exemplificar a deteção de objetos proposta por Paul Viola e Michael Jones em seu artigo "Rapid Object Detection using a Boosted Cascade of Simple Features" em 2001. Esse artigo trata de uma abordagem baseada em Machine Learning, em que uma função cascade é treinada com o uso de muitas imagens positivas e negativas. </p>
