@@ -15,10 +15,10 @@ A aplicação busca detectar e identificar "morangos" através de uma webcam.
 ## ⚒️ Ferramentas ⚒️
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Python 2.7.18]
-- [Numpy (Numerical Python)]
-- [VSCode]
-- [OpenCV 3.4.4]
+- [Python 2.7.18] - https://www.python.org/downloads/
+- [Numpy (Numerical Python)] - https://numpy.org
+- [VSCode] - https://code.visualstudio.com
+- [OpenCV 3.4.4] - https://opencv.org
 
 
 # 💻 Como utilizar? 💻
@@ -30,9 +30,8 @@ $ git clone https://github.com/luanagribel/ObjectDetection.git
 ```
 
 ### Unzip files
-- Descompacte as pastas "info.zip" e "negativas.zip" localizadas na pasta "Haar Cascade"
-- OBS: As mesmas foram compactadas devido ao elevado número de imagens para treinamento
-- OBS2: Caso queira utilizar imagens diferentes você pode acessar o site http://image-net.org/ e escolher diversos datasets :D
+- Descompacte as pastas "info.zip" e "negativas.zip" localizadas na pasta "Haar Cascade" (as mesmas foram compactadas devido ao elevado número de imagens para treinamento)
+- Dica: Caso queira utilizar imagens diferentes/adicionar novas você pode acessar o site http://image-net.org/ e escolher diversos datasets! :D
 
 ### Detect
 - Através do terminal, rode o script para a detecção dos morangos
