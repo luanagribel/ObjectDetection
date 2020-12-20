@@ -43,7 +43,7 @@ python detecta.py
   <img src="https://i.ibb.co/T2XfJ8w/5193fa15-2317-4f6d-af56-0de52b685e5b.jpg" >
  
  
-## Como detectar novos objetos?
+## 💡 Como detectar novos objetos? 💡
 
 - Caso tenha vontade de mudar o objeto a ser detectado, basta alterar a imagem positiva no diretório e posteriormente realizar o treinamento.
 - Para utilizar imagens diferentes/adicionar novas para as negativas você pode acessar o site http://image-net.org/ e escolher diversos datasets! O download pode ser feito clicando em Download -> Image URLs e então na página que se abrirá haverá uma explicação de como chegar à página com a lista de URLs.
