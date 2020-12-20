@@ -47,7 +47,8 @@ python detecta.py
 
 - Caso tenha vontade de mudar o objeto a ser detectado, basta alterar a imagem positiva no diretório e posteriormente realizar o treinamento.
 - Para utilizar imagens diferentes/adicionar novas para as negativas você pode acessar o site http://image-net.org/ e escolher diversos datasets! O download pode ser feito clicando em Download -> Image URLs e então na página que se abrirá haverá uma explicação de como chegar à página com a lista de URLs.
-- OBS: Lembre-se de limpar a pasta info antes de realizar o treinamento, para que as novas imagens treinadas sejam inseridas na mesma.
+- OBS: Deve-se alterar o link para as imagens negativas no script negativas.py
+- OBS2: Lembre-se de limpar a pasta info antes de realizar o treinamento, para que as novas imagens treinadas sejam inseridas na mesma.
 - Comando para a criação das novas amostras:
 
 ```
