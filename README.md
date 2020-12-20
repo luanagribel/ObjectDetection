@@ -1,7 +1,7 @@
 
 
 <h1 align="center"> 🍓 Object Detection 🍓</h1>
-<h3 align="center">:white_check_mark:  Object Detection: Em desenvolvimento  :white_check_mark:</h3>
+<h3 align="center">:white_check_mark:  Em desenvolvimento  :white_check_mark:</h3>
 
 <p align="center">Treinando e detectando objetos com Haar Cascade (Python + OpenCV)</p>
 
