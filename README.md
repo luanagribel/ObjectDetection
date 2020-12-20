@@ -30,8 +30,8 @@ $ git clone https://github.com/luanagribel/ObjectDetection.git
 ```
 
 ### Unzip files
-- Descompacte as pastas "info.zip" e "negativas.zip" localizadas na pasta "Haar Cascade" (as mesmas foram compactadas devido ao elevado número de imagens para treinamento)
-- Dica: Caso queira utilizar imagens diferentes/adicionar novas você pode acessar o site http://image-net.org/ e escolher diversos datasets! :D
+- Descompacte as pastas "info.zip" e "negativas.zip" localizadas na pasta "Haar Cascade"
+- OBS: As mesmas foram compactadas devido ao elevado número de imagens para treinamento
 
 ### Detection test
 - Através do terminal, rode o script para a detecção dos morangos
@@ -41,4 +41,31 @@ python detecta.py
 - Abra a imagem "morango.jpg" através de um smartphone e a posicione direcionada para a webcam
 
   <img src="https://i.ibb.co/T2XfJ8w/5193fa15-2317-4f6d-af56-0de52b685e5b.jpg" >
+  
+### Detecting new objects
+
+- Caso tenha vontade de mudar o objeto a ser detectado, basta alterar a imagem positiva no diretório e posteriormente realizar o treinamento.
+- Para utilizar imagens diferentes/adicionar novas para as negativas você pode acessar o site http://image-net.org/ e escolher diversos datasets! O download pode ser feito clicando em Download -> Image URLs e então na página que se abrirá haverá uma explicação de como chegar à página com a lista de URLs.
+- OBS: Lembre-se de limpar a pasta info antes de realizar o treinamento, para que as novas imagens treinadas sejam inseridas na mesma.
+- Comando para a criação das novas amostras:
+
+```
+opencv_createsamples -img NOME_DO_ARQUIVO.jpg -bg ARQUIVO_LISTA_DE_IMAGENS_NEGATIVAS.txt -info DIRETÓRIO_SAÍDA/ARQUIVO_LISTA.lst -pngoutput DIRETÓRIO_SAÍDA -maxxangle ÂNGULO_MÁXIMO_EIXO_X -maxyangle ÂNGULO_MÁXIMO_EIXO_Y -maxzangle ÂNGULO_MÁXIMO_EIXO_Z -num NÚMERO_DE_IMAGENS_NEGATIVAS
+
+```
+
+- Comando para a criação do vetor:
+
+```
+opencv_createsamples -info DIRETÓRIO/ARQUIVO_LISTA.lst -num NÚMERO_DE_IMAGENS_NEGATIVAS -w LARGURA_DA_AMOSTRA -h ALTURA_DA_AMOSTRA -vec ARQUIVO_VETORES
+
+```
+
+- Comando para realizar o treinamento:
+
+```
+opencv_traincascade -data PASTA_DESTINO -vec VETOR.vec -bg bg.txt -numPos (NÚMERO_DE_IMAGENS - 200) -numNeg METADE_DO_NUMPOS -numStages NÚMERO_DE_ESTAGIOS_DO_TREINO -w LARGURA_DA_AMOSTRA -h ALTURA_DA_AMOSTRA
+
+```
+
   
