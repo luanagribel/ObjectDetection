@@ -1,7 +1,7 @@
 
 
 <h1 align="center"> 🍓 Object Detection 🍓</h1>
-<h3 align="center"> (em desenvolvimento) </h3>
+<h3 align="center">:white_check_mark:  Object Detection: Em desenvolvimento  :white_check_mark:</h3>
 
 <p align="center">Treinando e detectando objetos com Haar Cascade (Python + OpenCV)</p>
 
@@ -33,9 +33,12 @@ $ git clone https://github.com/luanagribel/ObjectDetection.git
 - Descompacte as pastas "info.zip" e "negativas.zip" localizadas na pasta "Haar Cascade" (as mesmas foram compactadas devido ao elevado número de imagens para treinamento)
 - Dica: Caso queira utilizar imagens diferentes/adicionar novas você pode acessar o site http://image-net.org/ e escolher diversos datasets! :D
 
-### Detect
+### Detection test
 - Através do terminal, rode o script para a detecção dos morangos
 ```
 python detecta.py
 ```
 - Abra a imagem "morango.jpg" através de um smartphone e a posicione direcionada para a webcam
+
+ 
+  
