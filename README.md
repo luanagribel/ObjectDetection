@@ -40,5 +40,5 @@ python detecta.py
 ```
 - Abra a imagem "morango.jpg" através de um smartphone e a posicione direcionada para a webcam
 
- 
+  <img src="https://ibb.co/B3DpvZf" >
   
